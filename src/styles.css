@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.Titulo{
+    text-align: center;
+    background-color:yellow;
+    border: 1px solid brown;
+    padding : 25px 15px 15px 15px;
+    font-size: 40px;
+    margin: 0;
+    
+}
+.Caja{
+    border: 2px solid black;
+    background-color: yellow;
+    margin: 20px;
+    text-align: center;
+    
+    
+}
+.Caja h2 {
+    margin: 30px 20px 20px 20px;
+    font-size: 33px;
+}
+.Footer{
+   
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+  
+/* NAVBAR */
+  .navbar {
+    background-color: #333;
+    padding: 5px 20px;
+  }
+  
+
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 0;
+
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+    
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  .estadoCss {
+    
+  }
+  
+  
+  
+  .hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+  }
+  .Caja {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+ }
+
+.Caja.backgroundHighlight {
+    background-color: red;
+}
+
+.Caja.backgroundNormal {
+    background-color: blue;
+}

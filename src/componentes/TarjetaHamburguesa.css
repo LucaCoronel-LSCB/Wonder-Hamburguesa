@@ -1,0 +1,12 @@
+.TarjetaHamburguesa  {
+    border: 3px solid rgb(196, 193, 20) !important; 
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.TarjetaHamburguesa-activa {
+    border: 3px solid black; 
+    margin-bottom: 40px;
+    border-radius: 20px;
+    transition: all 1500ms ease-out;
+    background: linear-gradient(45deg,rgba(85, 17, 17, 0.615),rgb(235, 222, 38));
+}
