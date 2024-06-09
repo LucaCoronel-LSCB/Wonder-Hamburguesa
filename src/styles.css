@@ -5,7 +5,9 @@
 }
 .Titulo{
     text-align: center;
+
     background-color:rgb(0, 0, 0);
+
     border: 1px solid brown;
     padding : 25px 15px 15px 15px;
     font-size: 40px;
