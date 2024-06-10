@@ -10,7 +10,7 @@
     padding : 25px 15px 15px 15px;
     font-size: 40px;
     margin: 0;
-    
+    color: #fff;
 }
 .Caja{
     border: 2px solid black;
@@ -40,7 +40,7 @@
   
 
   
-  .nav-links {
+  .navbar-links {
     list-style: none;
     display: flex;
     justify-content: space-evenly;

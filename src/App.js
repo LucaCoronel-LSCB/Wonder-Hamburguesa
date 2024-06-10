@@ -6,7 +6,7 @@ const App = () => (
     <div>
         <h1 className="Titulo">Hamburgueseria Wonder</h1>
         <nav className="navbar">
-            <ul className="nav-links">
+            <ul className="navbar-links">
                 <li><a href="#home">Productos</a></li>
                 <li><a href="#about">Lanzamientos</a></li>
                 <li><a href="#services">Locales</a></li>
