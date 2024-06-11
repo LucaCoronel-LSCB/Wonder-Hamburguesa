@@ -31,9 +31,9 @@ class TarjetaHamburguesa extends React.Component {
         const clases = hasItems ? 'TarjetaHamburguesa-activa' : 'TarjetaHamburguesa'
         return (
             <div className={clases}>
-                <h4>{this.props.name}</h4>
+                <h4 className='name-hamburguesa'>{this.props.name}</h4>
                 <p>Precio: ${this.props.price}</p>
-                <div>Cantidad: {this.state.cantidad}</div>
+                <div className='cant-hamburguesas'>Cantidad: {this.state.cantidad}</div>
                 <button onClick={this.agregar}> + </button>
                 <button onClick={this.restar}> - </button>
                 <button onClick={this.resetear}> = </button>
