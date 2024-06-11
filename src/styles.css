@@ -25,10 +25,8 @@
     font-size: 35px;
 }
 .Footer{
-   
     display: flex;
     justify-content: space-around;
-   
 }
 
   
@@ -58,9 +56,6 @@
     color: #fff;
     text-decoration: none;
     font-size: 27px;
-  }
-  .estadoCss {
-    
   }
   
   
