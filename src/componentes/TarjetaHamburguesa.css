@@ -10,3 +10,9 @@
     transition: all 1500ms ease-out;
     background: linear-gradient(45deg,rgba(85, 17, 17, 0.615),rgb(235, 222, 38));
 }
+.name-hamburguesa{
+    font-size: 22px;
+}
+.cant-hamburguesas{
+    font-size: 18px;  
+}

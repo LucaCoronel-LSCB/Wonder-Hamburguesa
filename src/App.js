@@ -4,7 +4,7 @@ import TarjetaHamburguesa from './componentes/TarjetaHamburguesa';
 
 const App = () => (
     <div>
-        <h1 className="Titulo">Hamburgueseria Wonder</h1>
+        <h1 className="Titulo">Hamburgueseria Wonder JUJU</h1>
         <nav className="navbar">
             <ul className="navbar-links">
                 <li><a href="#home">Productos</a></li>

@@ -5,10 +5,10 @@
 }
 .Titulo{
     text-align: center;
-    background-color:rgb(255, 0, 0);
-    border: 1px solid brown;
+    background-color:rgb(255, 223, 16);
+    border: 2px solid rgb(24, 2, 2);
     padding : 25px 15px 15px 15px;
-    font-size: 40px;
+    font-size: 45px;
     margin: 0;
     color: #fff;
 }
@@ -22,7 +22,7 @@
 }
 .Caja h2 {
     margin: 30px 20px 20px 20px;
-    font-size: 33px;
+    font-size: 35px;
 }
 .Footer{
    
@@ -57,7 +57,7 @@
   .nav-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 27px;
   }
   .estadoCss {
     
