@@ -4,8 +4,8 @@
     border-radius: 20px;
 }
 .card-active {
-    border: 3px solid rgb(255, 0, 0) ; 
-    background-color: red;
+    border: 3px solid rgba(125, 42, 7, 0.501) ; 
+    background-color: rgb(255, 164, 18);
     
     /* border: 3px solid black; 
     margin-bottom: 40px;

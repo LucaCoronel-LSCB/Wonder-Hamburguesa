@@ -34,16 +34,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Listas */
-ul, ol {
-    margin-bottom: 1rem;
-    padding-left: 1.5rem;
-}
-
-li {
-    margin-bottom: 0.5rem;
-}
-
 /* Imágenes */
 img {
     max-width: 100%;
