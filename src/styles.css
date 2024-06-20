@@ -30,35 +30,35 @@
   background-color: #333;
   padding: 5px 20px;
 }
-.nav-links {
+.nav-links{
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   padding: 5px;
   margin: 0;
 }
-.nav-links li {
+.nav-links li{
   margin-left: 20px;
 }
-.nav-links a {
+.nav-links a{
   color: #fff;
   text-decoration: none;
   font-size: 27px;
 }
-.hamburger .line {
+.hamburger .line{
   width: 25px;
   height: 3px;
   background-color: #fff;
   margin: 4px 0;
 }
-.Caja {
+.Caja{
   padding: 20px;
   margin: 20px;
   border: 2px solid black;
 }
-.Caja.backgroundHighlight {
+.Caja.backgroundHighlight{
   background-color: red;
 }
-.Caja.backgroundNormal {
+.Caja.backgroundNormal{
   background-color: blue;
 }

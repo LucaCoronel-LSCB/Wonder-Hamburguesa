@@ -4,7 +4,7 @@ import TarjetaHamburguesa from './componentes/TarjetaHamburguesa';
 
 const App = () => (
     <div>
-        <h1 className="Titulo">Hamburgueseria Wonder JUJU</h1>
+        <h1 className="Titulo">Hamburgueseria Wonder</h1>
         <nav className="navbar">
             <ul className="nav-links">
                 <li><a href="#home">Productos</a></li>
@@ -17,23 +17,23 @@ const App = () => (
 
         <div className="Caja">
             <h2>Wonder Clásicas</h2>
-            <TarjetaHamburguesa name='Hamburguesa Simple con Papas' price={6.199} />
-            <TarjetaHamburguesa name='Hamburguesa Doble con Papas' price={7.799} />
-            <TarjetaHamburguesa name='Hamburguesa Triple con Papas' price={9.799} />
+            <TarjetaHamburguesa name='Hamburguesa Simple con Papas' price={6199} />
+            <TarjetaHamburguesa name='Hamburguesa Doble con Papas' price={7799} />
+            <TarjetaHamburguesa name='Hamburguesa Triple con Papas' price={9799} />
         </div>
 
         <div className="Caja">
             <h2>Wonder Premium</h2>
-            <TarjetaHamburguesa name='Hamburguesa Onion BBQ' price={6.199} />
-            <TarjetaHamburguesa name='Hamburguesa Argentina' price={7.799} />
-            <TarjetaHamburguesa name='Hamburguesa Vacio Desmenuzado' price={9.799} />
+            <TarjetaHamburguesa name='Hamburguesa Onion BBQ' price={6199} />
+            <TarjetaHamburguesa name='Hamburguesa Argentina' price={7799} />
+            <TarjetaHamburguesa name='Hamburguesa Vacio Desmenuzado' price={9799} />
         </div>
 
         <div className="Caja">
             <h2>Otras de Wonder</h2>
-            <TarjetaHamburguesa name='Hamburguesa Veggies' price={6.199} />
-            <TarjetaHamburguesa name='Hamburguesa de Pollo' price={7.799} />
-            <TarjetaHamburguesa name='Cajita Feliz' price={9.799} />
+            <TarjetaHamburguesa name='Hamburguesa Veggies' price={6199} />
+            <TarjetaHamburguesa name='Hamburguesa de Pollo' price={7799} />
+            <TarjetaHamburguesa name='Cajita Feliz' price={9799} />
         </div>
 
         <footer>

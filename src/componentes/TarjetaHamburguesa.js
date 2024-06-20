@@ -1,7 +1,5 @@
-// src/componentes/TarjetaHamburguesa.js
 import React from 'react';
-import './TarjetaHamburguesa.css';
-
+import styles from './TarjetaHamburguesa.module.css';
 
 class TarjetaHamburguesa extends React.Component {
     state = {
@@ -27,19 +25,21 @@ class TarjetaHamburguesa extends React.Component {
     }
 
     render() {
-        const hasItems = this.state.cantidad > 0
-        const clases = hasItems ? 'TarjetaHamburguesa-activa' : 'TarjetaHamburguesa'
+        const hasItems = this.state.cantidad > 0;    // Estado
+        const activeClass = hasItems ? styles['card-active'] : '';
+        const clases = styles.card + ' ' + activeClass;
+        // Si tiene items entonces se aplica la tarjeta activa, si no se aplica la otra tarjeta
         return (
             <div className={clases}>
-                <h4 className='name-hamburguesa'>{this.props.name}</h4>
+                <h4 className={styles['name-hamburguesa']}>{this.props.name}</h4>
                 <p>Precio: ${this.props.price}</p>
-                <div className='cant-hamburguesas'>Cantidad: {this.state.cantidad}</div>
+                <div className={styles['cant-hamburguesas']}>Cantidad: {this.state.cantidad}</div>
                 <button onClick={this.agregar}> + </button>
                 <button onClick={this.restar}> - </button>
                 <button onClick={this.resetear}> = </button>
                 <hr/>
                 <p>
-                    Total: {this.props.price * this.state.cantidad}
+                Total: ${Math.round(this.props.price * this.state.cantidad)}.00
                 </p>
             </div>
         );
