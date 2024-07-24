@@ -4,10 +4,10 @@
 }
 .Titulo{
     text-align: center;
-    background-color:rgb(241, 209, 0);
-    border: 2px solid rgb(24, 2, 2);
+    background-color:rgb(240, 199, 18);
+    border: 2px solid #000000;
     padding : 25px 15px 15px 15px;
-    font-size: 45px;
+    font-size: 65px;
     margin: 0;
     
 }
@@ -26,39 +26,38 @@
     justify-content: space-around;
 }
 
-/* NAVBAR */
+/*************** NAVBAR *********************/
   .navbar {
     background: #333;
-    padding: 5px;
+    
   }
   
   .navbar .navbar-links{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
-    height: 35px;
   }
 
-  .navbar .navbar-links li{
-    text-align: center;
-    margin: auto;
-  }
+
 
   .navbar-links a{
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
     margin: 15px;
     transition: 0.3s ;
   }
 
   .navbar-links a:hover{
-    font-size: 25px;
+    font-size: 32px;
     margin: 5px;
     transition: 0.3s;
   }
   
+  /*******************************/
+
+
+
   .hamburger .line{
     width: 25px;
     height: 3px;
@@ -70,6 +69,7 @@
     margin: 20px;
     border: 2px solid black;
   }
+
 
 .Caja.backgroundHighlight{
   background-color: red;

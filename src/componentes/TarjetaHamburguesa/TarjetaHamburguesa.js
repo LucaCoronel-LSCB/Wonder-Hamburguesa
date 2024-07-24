@@ -28,20 +28,24 @@ class TarjetaHamburguesa extends React.Component {
         const hasItems = this.state.cantidad > 0;    // Estado
         const activeClass = hasItems ? styles['card-active'] : '';
         const clases = styles.card + ' ' + activeClass;
+        const { imageSrc, name, price } = this.props; // Desestructurar las props
+
         // Si tiene items entonces se aplica la tarjeta activa, si no se aplica la otra tarjeta
         return (
             <div className={clases}>
                 <h4 className={styles['name-hamburguesa']}>{this.props.name}</h4>
                 <p>Precio: ${this.props.price}</p>
                 <div className={styles['cant-hamburguesas']}>Cantidad: {this.state.cantidad}</div>
+                <div className={styles['container']}>
+                    <img src={imageSrc} alt="imagen que no se pudo cargar de hamburguesa" className={styles['pictures_burger']} />
+                </div>
                 <button onClick={this.agregar}> + </button>
                 <button onClick={this.restar}> - </button>
                 <button onClick={this.resetear}> = </button>
-                <hr/>
-                <p>
-                Total: ${Math.round(this.props.price * this.state.cantidad)}.00
+                <p className={styles['total']}>
+                    Total: ${Math.round(this.props.price * this.state.cantidad)}.00
                 </p>
-            </div>
+                </div>
         );
     }
 }
